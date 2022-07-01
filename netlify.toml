@@ -1,0 +1,7 @@
+[build]
+  command = "CI='' yarn build"
+  publish = "build"
+
+[build.environment]
+  YARN_VERSION = "1.17.3"
+  NODE_ENV = "production"

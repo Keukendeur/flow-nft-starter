@@ -1,6 +1,6 @@
 .App {
   height: 100vh;
-  background-color: rgb(20, 20, 20);
+  background-color: #dd0000;
   overflow: hidden;
   text-align: center;
   overflow-x: hidden;
@@ -29,7 +29,7 @@
   font-weight: bold;
 }
 
-.header-container{
+.header-container {
   padding: 0;
 }
 
@@ -58,6 +58,7 @@
 
 .flow-logo {
   width: 80px;
+  height: 80px;
 }
 
 .logo-container {
@@ -81,7 +82,11 @@
 
 .connect-wallet-button {
   color: white;
-  background: -webkit-linear-gradient(55deg, rgba(2, 239, 139, 1) 0%, rgba(0, 254, 255, 1) 100%);
+  background: -webkit-linear-gradient(
+    55deg,
+    rgba(2, 239, 139, 1) 0%,
+    rgba(0, 254, 255, 1) 100%
+  );
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
@@ -147,7 +152,18 @@
 
 .button-glow:before {
   content: "";
-  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
   position: absolute;
   top: -2px;
   left: -2px;
@@ -198,47 +214,47 @@
 /* KeyFrames */
 @-webkit-keyframes gradient-animation {
   0% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
   50% {
-      background-position: 100% 50%;
+    background-position: 100% 50%;
   }
   100% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
 }
 @-moz-keyframes gradient-animation {
   0% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
   50% {
-      background-position: 100% 50%;
+    background-position: 100% 50%;
   }
   100% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
 }
 @keyframes gradient-animation {
   0% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
   50% {
-      background-position: 100% 50%;
+    background-position: 100% 50%;
   }
   100% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
 }
 
 /** Credits: https://codepen.io/kocsten/pen/rggjXp **/
 @keyframes button-glow-animation {
   0% {
-      background-position: 0 0;
+    background-position: 0 0;
   }
   50% {
-      background-position: 400% 0;
+    background-position: 400% 0;
   }
   100% {
-      background-position: 0 0;
+    background-position: 0 0;
   }
 }
