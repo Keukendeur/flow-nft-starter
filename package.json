@@ -1,5 +1,5 @@
 {
-  "name": "flow-nft-starter",
+  "name": "flow-buildspace",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,5 +37,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "keywords": [],
+  "description": "https://buildspace.so/p/nfts-on-flow/lessons/LE7d89953f-7d6e-4586-9109-fcb6d4b7de4b"
 }
